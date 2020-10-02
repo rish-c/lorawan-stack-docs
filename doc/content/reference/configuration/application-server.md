@@ -52,3 +52,11 @@ Application Server supports communicating the paths of the downlink queue operat
 
 - `as.webhooks.downlink.public-address`: Public address of the HTTP webhooks frontend (default "http://localhost:1885/api/v3")
 - `as.webhooks.downlink.public-tls-address`: Public address of the HTTPS webhooks frontend
+
+## End Device Fetcher Options
+
+Application Server fetches end device information stored in the Identity Server, in order to add them as metadata to forwarded upstream messages. This information can be cached locally to improve performance:
+
+- `as.fetcher.cache.enable`: Set to `true` to enable caching.
+- `as.fetcher.cache.size`: Number of cache entries. In case the cache is full, the Least Frequently Used entry will be evicted. Set to `0` to disable.
+- `as.fetcher.cache.ttl`: Time-To-Live for cache entries.
