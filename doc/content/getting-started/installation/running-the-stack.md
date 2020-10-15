@@ -20,6 +20,8 @@ Next, we need to initialize the database of the Identity Server:
 $ docker-compose run --rm stack is-db init
 ```
 
+> NOTE: If you receive an error running {{% tts %}}, make sure a {{% tts %}} container isn't already running. Use `docker ps` to see running containers.
+
 {{% tts %}} Enterprise requires a tenant to be present, even if multi-tenancy is not included in the license. We now create this tenant:
 
 ```bash
