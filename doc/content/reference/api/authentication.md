@@ -28,11 +28,11 @@ Session cookies provide a way to authorize API usage using the session cookie ob
 
 ## OAuth access tokens
 
-The Things Network uses the [OAuth 2.0 protocol](https://oauth.net/) for authentication and authorization. 
+The Things Stack uses the [OAuth 2.0 protocol](https://oauth.net/) for authentication and authorization. 
 
 To use this method, you first need an **OAuth client registration**:
 
-- The **client ID** uniquely identifies the OAuth client. Its restrictions are the same as for any other ID in TTN.
+- The **client ID** uniquely identifies the OAuth client. Its restrictions are the same as for any other ID in The Things Stack.
 - The **description** is shown to the user when you request authorization.
 - The **scope** indicates what actions your OAuth client is allowed to perform. This is shown to the user when you request authorization. You can select the actions your OAuth client needs on registration, a full list can also be found in our [source code](https://github.com/TheThingsNetwork/lorawan-stack/blob/default/api/rights.proto).
 - The **redirect URI** is where the user is redirected after authorizing your OAuth client.
