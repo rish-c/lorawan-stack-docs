@@ -127,7 +127,7 @@ No, {{% tts %}} Billing Account can only be accessed by one person (i.e. one ema
 
 ### Is it possible to add other people to the billing section?
 
-No, unfortunately, this is not possible at the moment. If you have questions about accessing billing info, please send an email to [TTI finance department](mailto:finance@thethingsindustries.com).
+No, unfortunately, this is not possible at the moment. If you have questions about accessing billing info, please send an email to [TTI finance department](mailto:accounts@thethingsindustries.com).
 
 ### My payment failed, so I updated my credit card details - is charging automatically retried?
 
